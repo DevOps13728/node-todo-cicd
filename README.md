@@ -3,10 +3,10 @@
 Run these commands:
 
 
-`sudo apt install nodejs`
+`sudo apt install nodejs -y`
 
 
-`sudo apt install npm`
+`sudo apt install npm -y`
 
 
 `npm install`
