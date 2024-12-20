@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Build and Test'){
             steps{
-                sh 'docker stop && docker rm DevOps13728/node-todo-test:latest && docker build . -t DevOps13728/node-todo-test:latest'
+                sh 'docker stop testjob2_web_1 && docker rm DevOps13728/node-todo-test:latest && docker build . -t DevOps13728/node-todo-test:latest'
             }
         }
         stage('Deploy'){
